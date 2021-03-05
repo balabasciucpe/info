@@ -9,3 +9,15 @@ server:
       defaultZone: http://${EUREKA_HOST:localhost}:${EUREKA_PORT:8761}/eureka/
   instance:
     preferIpAddress: true 
+    
+    
+spring:
+  datasource:
+    initialization-mode: always
+    password: ''
+    url: jdbc:mysql://localhost:3306/petrea
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update    
