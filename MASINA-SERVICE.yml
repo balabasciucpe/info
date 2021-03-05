@@ -19,6 +19,6 @@ spring:
     url: jdbc:mysql://localhost:3306/petrea
     username: root
   jpa:
-    database-platform: org.hibernate.dialect.MySQL5Dialect
+    database-platform: org.hibernate.dialect.MySQL55Dialect
     hibernate:
       ddl-auto: update    
