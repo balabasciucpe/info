@@ -10,7 +10,7 @@ eureka:
     serviceUrl:
 #      defaultZone: http://${EUREKA_HOST:hostname}:${EUREKA_PORT:server.port}/eureka/
 #      defaultZone: http://hostname:server:port}/eureka/
-      defaultZone: http://localhost:8761}/eureka/
+      defaultZone: http://localhost:8761/eureka/
 
   server:
     waitTimeInMsWhenSyncEmpty: 5
